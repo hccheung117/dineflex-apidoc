@@ -278,12 +278,12 @@ All error responses follow this format:
 | Error Code | Description |
 |------------|-------------|
 | `VALIDATION_ERROR` | One or more fields contain invalid data |
-| `INVALID_DATE_FORMAT` | Date format is invalid (should be YYYY-MM-DD) |
+| `VALIDATION_INVALID_DATE_FORMAT` | Date format is invalid (should be YYYY-MM-DD) |
 
 #### Field-Specific Validation Codes
 
 | Error Code | Description |
 |------------|-------------|
-| `INVALID_FORMAT` | Field format is invalid |
-| `REQUIRED_FIELD` | Field is required but was not provided |
-| `OUT_OF_RANGE` | Numeric value is outside accepted range |
+| `VALIDATION_INVALID_FORMAT` | Field format is invalid |
+| `VALIDATION_REQUIRED_FIELD` | Field is required but was not provided |
+| `VALIDATION_OUT_OF_RANGE` | Numeric value is outside accepted range |
